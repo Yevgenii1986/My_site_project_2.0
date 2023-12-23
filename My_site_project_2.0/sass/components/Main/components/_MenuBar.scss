@@ -1,0 +1,100 @@
+.MenuBar {
+    border-top: solid 2px rgb(216, 203, 203);
+    border-bottom: solid 2px rgb(216, 203, 203);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    ul {
+        display: flex;
+        li:first-child {
+            margin: 0 auto;
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            a {
+                font-size: 25px;
+                font-weight: 500;
+                color: rgb(0, 0, 0);
+                text-wrap: nowrap;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                    sans-serif;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        li:nth-child(2) {
+            margin: 0 auto;
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            a {
+                font-size: 25px;
+                font-weight: 500;
+                color: rgb(0, 0, 0);
+                text-wrap: nowrap;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                    sans-serif;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        li:nth-child(3) {
+            margin: 0 auto;
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            a {
+                font-size: 25px;
+                font-weight: 500;
+                color: rgb(255, 255, 255);
+                text-wrap: nowrap;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                    sans-serif;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        li:nth-child(4) {
+            margin: 0 auto;
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            a {
+                font-size: 25px;
+                font-weight: 500;
+                color: rgb(255, 255, 255);
+                text-wrap: nowrap;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                    sans-serif;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        li:last-child {
+            margin: 0 auto;
+            &:hover {
+                transform: scale(1.2);
+            }
+
+            a {
+                font-size: 25px;
+                font-weight: 500;
+                color: rgb(255, 255, 255);
+                text-wrap: nowrap;
+                font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+                    sans-serif;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
